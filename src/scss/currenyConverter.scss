@@ -1,0 +1,85 @@
+body {
+  background: #1c89bb;
+
+  .title {
+      width: 100%;
+      text-align: center;
+      color: #FE994A;
+      font-family: Arial;
+  }
+
+  .inputContainer {
+      display: flex;
+      margin: 0 auto;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+      input {
+       padding: 2px 10px;
+       margin: 5px 10px;
+       border-radius: 5px;
+       border-style: none;
+      }
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      input[type=number] {
+        -moz-appearance: textfield;
+      }
+  }
+
+  .currencyDropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   select {
+     padding: 2px 10px;
+     margin: 5px 10px;
+     border-radius: 5px;
+     border-style: none;
+    }
+  }
+
+  .buttonContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+  button {
+    padding: 4px 30px;
+    border-radius: 10px;
+    background: #FE994A;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+  }
+  button:hover {
+  background : #4CAF50;
+}
+
+  }
+
+  .result {
+      padding: 15px;
+      border-radius: 10px;
+      color: #fff;
+      font-size: 15px;
+      display: flex;
+      justify-content: center;
+      .resultValue{
+        font-weight: bold;
+        font-style: italic;
+        margin-left: 10px;
+      }
+  }
+  .error{
+    color: #ff4500;
+  }
+
+  label {
+    color : #ffff;
+  }
+}
